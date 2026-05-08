@@ -2,9 +2,9 @@
 name: official-document-writer
 version: "1.0.0"
 description: |
-  Official document writing assistant for Chinese government documents. Based on GB/T 9704-2012 standard.
+  Government official document writing assistant (党政机关公文写作助手). Designed for Chinese party and government organs. Strictly compliant with GB/T 9704-2012 national standard and the Regulations on the Handling of Official Documents of Party and Government Organs (党政机关公文处理工作条例).
 
-  Triggers when: Writing Chinese official documents (公文), formatting documents according to national standards, reviewing document compliance, or creating notices, reports, requests, replies, letters, or minutes.
+  Triggers when: Writing Chinese government official documents (党政机关公文), formatting documents according to GB/T 9704-2012, reviewing document compliance, or creating 通知/报告/请示/批复/函/纪要 and other official document types.
 
   Commands:
   - /gongwen notice <topic> - Write a notice (通知)
@@ -16,14 +16,14 @@ description: |
   - /gongwen check <document> - Check document compliance
   - /gongwen format - Show formatting rules
 
-  Capabilities: 15 document types support, GB/T 9704-2012 compliance, hierarchy numbering rules, font and layout specifications, and document structure templates.
+  Capabilities: 15 document types for Chinese party and government organs (党政机关15种公文文种), GB/T 9704-2012 compliance, hierarchy numbering rules, font and layout specifications, document structure templates, formatting verification.
 author: cycleuser
 license: MIT
 ---
 
-# Official Document Writer
+# Official Document Writer — 中国政府公文写作助手
 
-Chinese official document writing assistant based on GB/T 9704-2012 national standard.
+适用于中国政府党政机关公文写作。严格遵循 GB/T 9704-2012《党政机关公文格式》国家标准和《党政机关公文处理工作条例》。
 
 ## Quick Commands
 
